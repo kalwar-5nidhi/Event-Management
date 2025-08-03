@@ -1,46 +1,95 @@
-# Getting Started with Create React App
+## Event Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive and interactive Event Management application built using **React**, **TypeScript**, **Material UI**, and **Tailwind CSS**.  
+This application allows users to **create**, **view**, **edit**, and **delete** events, with persistent data storage using **localStorage**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+##  Features
 
-### `npm start`
+- ✅ Create new events with:
+  - Title
+  - Description
+  - Venue
+  - Date
+- ✅ View a list of all created events
+  - Events are styled differently if the date is in the past
+- ✅ Edit existing events with **validation**
+  - Prevents scheduling two events at the same date and venue
+- ✅ Delete events
+- ✅ Persistent storage using localStorage (no backend)
+- 🗓️ (Optional) Calendar view of all events
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+##  Tech Stack
 
-### `npm test`
+| Technology     | Purpose                     |
+|----------------|-----------------------------|
+| React          | Frontend library            |
+| TypeScript     | Type safety and tooling     |
+| Material UI    | UI Components               |
+| Tailwind CSS   | Utility-first styling       |
+| react-hook-form| Form management             |
+| localStorage   | In-browser data persistence |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+##  Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+src/
+│
+├── components/
+│ ├── CreateEvent.tsx # Event creation & update form
+│ ├── EventCard.tsx # Individual event display
+│ ├── EventList.tsx # Event list view
+│ └── CalendarView.tsx # (Optional) calendar display
+│
+├── types/
+│ └── Event.ts # Type definition for events
+│
+├── App.tsx # App routes and layout
+└── index.tsx / main.tsx # React entry point
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation & Setup
 
-### `npm run eject`
+### 1. Clone the Repository
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+git clone https://github.com/your-username/event-management.git
+cd event-management
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Start the Development Server
+bash
+Copy
+Edit
+npm start
+The app will be available at:
+👉 http://localhost:3000
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+***How It Works***
+Events are stored in the browser using localStorage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+When an event is added, updated, or deleted, the data is synchronized with localStorage
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+On reload, the app fetches data from localStorage and displays it
 
-## Learn More
+Events in the past are styled with a different color for better visibility
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Update form includes validation to prevent duplicate events at the same time & venue
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ ***Deployment***
+You can deploy this app easily using:
+
+▶️ Deploy to Render
+Push the code to GitHub
+
+Go to https://app.netlify.com
+
+## Screenshots
+
