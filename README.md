@@ -1,4 +1,4 @@
-## Event Management App
+## Event Management 
 
 A responsive and interactive Event Management application built using **React**, **TypeScript**, **Material UI**, and **Tailwind CSS**.  
 This application allows users to **create**, **view**, **edit**, and **delete** events, with persistent data storage using **localStorage**.
@@ -85,3 +85,4 @@ Push the code to GitHub
 
 ## Screenshots
 
+ 
