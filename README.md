@@ -84,23 +84,4 @@ Update form includes validation to prevent duplicate events at the same time & v
 Push the code to GitHub
 
 ## Screenshots
-## Homepage
-<img width="1919" height="910" alt="Screenshot 2025-08-03 173752" src="https://github.com/user-attachments/assets/948a2286-bb1f-436d-a11d-418b6f93a634" />
-## Createpage
-<img width="1918" height="911" alt="Screenshot 2025-08-03 173441" src="https://github.com/user-attachments/assets/40853241-4b44-4816-996f-cea9a6836c56" />
-## Eventpage
-<img width="1916" height="907" alt="Screenshot 2025-08-03 173334" src="https://github.com/user-attachments/assets/d14fb846-c25c-49b4-8251-a012a146eb1d" />
-## updatepage
-<img width="1919" height="914" alt="Screenshot 2025-08-03 173512" src="https://github.com/user-attachments/assets/d48e1aca-4693-401b-b798-f9d5794bc163" />
-## After Update
-<img width="1919" height="904" alt="Screenshot 2025-08-03 173543" src="https://github.com/user-attachments/assets/b65d4350-2001-4089-8f79-c817a066dfab" />
-## Local storage
-<img width="1919" height="909" alt="Screenshot 2025-08-03 173733" src="https://github.com/user-attachments/assets/54a79aa6-8251-4be3-b71d-6e8eaf94c17a" />
-
-
-
-
-
-
-
 
